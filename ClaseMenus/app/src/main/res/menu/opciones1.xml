@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/opt_1"
+        android:title="Edit"/>
+    <item
+        android:id="@+id/opt_2"
+        android:title="Delete"/>
+    <item
+        android:id="@+id/opt_3"
+        android:title="Call"/>
+    <item
+        android:id="@+id/opt_4"
+        android:title="Share"/>
+
+</menu>
