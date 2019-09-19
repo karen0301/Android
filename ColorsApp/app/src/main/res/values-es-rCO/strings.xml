@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ColoresApp</string>
+    <string name="red">rojo</string>
+    <string name="black">Negro</string>
+    <string name="blanco">Blanco</string>
+    <string name="blue">Azul</string>
+    <string name="café">Café</string>
+    <string name="green">Verde</string>
+    <string name="amarillo">Amarillo</string>
+    <string name="white">Blanco</string>
+    <string name="yellow">Amarillo</string>
+    <string name="brown">Café</string>
+    <string name="Semitransparent">Semitransparente</string>
+    <string name="Transparent">Transparente</string>
+    <string name="Magenta">Magenta</string>
+    <string name="Cyan">Cyan</string>
+</resources>
