@@ -11,4 +11,5 @@
     <item android:id="@+id/iteSemitransparent" android:title="@string/Semitransparent" />
     <item android:id="@+id/iteTransparent" android:title="@string/Transparent" />
     <item android:id="@+id/iteWhite" android:title="@string/white" />
+    <item android:id="@+id/iteAlpha" android:title="@string/Alpha" />
 </menu>

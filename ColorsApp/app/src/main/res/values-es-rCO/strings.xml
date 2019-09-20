@@ -15,4 +15,5 @@
     <string name="Transparent">Transparente</string>
     <string name="Magenta">Magenta</string>
     <string name="Cyan">Cyan</string>
+    <string name="Alpha">Alfa</string>
 </resources>
