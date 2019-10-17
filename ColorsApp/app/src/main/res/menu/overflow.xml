@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/One"
+        android:title="Cyan"
+        />
+    <item
+        android:id="@+id/Two"
+        android:title="Magenta"
+        />
+    <item
+        android:id="@+id/Tree"
+        android:title="Yellow"
+        />
+    <item
+        android:id="@+id/Four"
+        android:title="Black"
+        />
+    <item
+        android:id="@+id/Five"
+        android:title="Red"
+        />
+    <item
+        android:id="@+id/Six"
+        android:title="Green"
+        />
+    <item
+        android:id="@+id/Seven"
+        android:title="Blue"
+        />
+    <item
+        android:id="@+id/Eight"
+        android:title="Contact"
+        />
+
+
+</menu>
