@@ -3,6 +3,7 @@ package com.example.colorsapp;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.Menu;
@@ -77,14 +78,68 @@ public class MainActivity extends AppCompatActivity implements SeekBar.OnSeekBar
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-
+        //Cyan
         if (id == R.id.One){
             sbrAlpha.setProgress(150);
-            sbrBlue.setProgress();
-            sbrGreen.setProgress();
-            sbrRed.setProgress();
-
+            sbrBlue.setProgress(255);
+            sbrGreen.setProgress(255);
+            sbrRed.setProgress(0);
         }
+        //Magenta
+        else if (id == R.id.Two){
+            sbrAlpha.setProgress(150);
+            sbrBlue.setProgress(255);
+            sbrGreen.setProgress(0);
+            sbrRed.setProgress(255);
+        }
+        //Yellow
+        else if (id == R.id.Tree){
+            sbrAlpha.setProgress(100);
+            sbrBlue.setProgress(0);
+            sbrGreen.setProgress(255);
+            sbrRed.setProgress(255);
+        }
+        //Black
+        else if (id == R.id.Four){
+            sbrAlpha.setProgress(180);
+            sbrBlue.setProgress(0);
+            sbrGreen.setProgress(0);
+            sbrRed.setProgress(0);
+        }
+        //Red
+        else if (id == R.id.Five){
+            sbrAlpha.setProgress(100);
+            sbrBlue.setProgress(0);
+            sbrGreen.setProgress(0);
+            sbrRed.setProgress(255);
+        }
+        //Green
+        else if (id == R.id.Six){
+            sbrAlpha.setProgress(100);
+            sbrBlue.setProgress(0);
+            sbrGreen.setProgress(255);
+            sbrRed.setProgress(0);
+        }
+        //Blue
+        else if (id == R.id.Seven){
+            sbrAlpha.setProgress(100);
+            sbrBlue.setProgress(255);
+            sbrGreen.setProgress(0);
+            sbrRed.setProgress(0);
+        }
+        //White
+        else if (id == R.id.Eight){
+            sbrAlpha.setProgress(180);
+            sbrBlue.setProgress(255);
+            sbrGreen.setProgress(255);
+            sbrRed.setProgress(255);
+        }
+        //ContactName
+        else if (id == R.id.Nine){
+            Intent next = new Intent(this, activity_ContacName.class);
+            startActivity(next);
+        }
+
         return super.onOptionsItemSelected(item);
     }
 }
